@@ -14,15 +14,21 @@ The repository is organized sequentially based on the training modules:
   * `ZBK_TRAINING_0001.abap`: Data types, variable declarations, and the WRITE command.
   * `ZBK_TRAINING_0002.abap`: Mathematical operations, conditions (IF/CASE), loops (DO/WHILE), and logical operators.
   * `ZBK_TRAIN_0003_ASSIGN_0001.abap`: Practice assignment for finding even and odd numbers using WHILE loop and MOD operator.
-* **[02-functions-and-classes](./02-functions-and-classes)**: *(Upcoming)*
-* **[03-package-and-request](./03-package-and-request)**: *(Upcoming)*
-* **[04-message-type-and-class](./04-message-type-and-class)**: *(Upcoming)*
-* **[05-debugging](./05-debugging)**: *(Upcoming)*
+  * `ZBK_TRAIN_0003_ASSIGN_0002.abap`: Practice assignment for finding divisible numbers (2, 3, 5). Introduces string concatenation (`&&`), `CONDENSE` command, and `IS INITIAL` checks.
+
+* **[02-abap-data-dictionary](./02-abap-data-dictionary)**: ABAP Data Dictionary (DDIC) fundamentals.
+  * Creating Database Tables.
+  * Data Elements and Domains.
+
+* **[03-functions-and-classes](./03-functions-and-classes)**: *(Upcoming)*
+* **[04-package-and-request](./04-package-and-request)**: *(Upcoming)*
+* **[05-message-type-and-class](./05-message-type-and-class)**: *(Upcoming)*
+* **[06-debugging](./06-debugging)**: *(Upcoming)*
 
 ## 💻 Technologies & Tools
 
 * **Language:** SAP ABAP
-* **Environment:** SAP GUI / ABAP Editor (SE38)
+* **Environment:** SAP GUI / ABAP Editor (SE38, SE11, SE16)
 * **Version Control:** Git, GitHub & VS Code
 
 ## 👨‍💻 Author
