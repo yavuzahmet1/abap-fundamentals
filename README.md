@@ -16,9 +16,14 @@ The repository is organized sequentially based on the training modules:
   * `ZBK_TRAIN_0003_ASSIGN_0001.abap`: Practice assignment for finding even and odd numbers using WHILE loop and MOD operator.
   * `ZBK_TRAIN_0003_ASSIGN_0002.abap`: Practice assignment for finding divisible numbers (2, 3, 5). Introduces string concatenation (`&&`), `CONDENSE` command, and `IS INITIAL` checks.
 
-* **[02-abap-data-dictionary](./02-abap-data-dictionary)**: ABAP Data Dictionary (DDIC) fundamentals.
-  * Creating Database Tables.
-  * Data Elements and Domains.
+* **[02-abap-data-dictionary](./02-abap-data-dictionary)**: ABAP Data Dictionary (DDIC) fundamentals & Database Architecture.
+  * `ZBK_PERS_T`: Created an Employee (Personel) database table.
+  * `ZBK_ST_LESSON`: Created a Student and Lesson tracking table.
+  * **Concepts Applied:**
+    * Structuring Tables, defining **Primary Keys** (e.g., `MANDT`, `STUDENT_ID`).
+    * Creating **Data Elements** (`_DE`) for semantic field labels.
+    * Defining **Domains** for technical properties (Data Types like `CHAR`, `NUMC` and their lengths).
+    * Executing basic CRUD operations (Insert, Select) via Data Browser (**SE16**).
 
 * **[03-functions-and-classes](./03-functions-and-classes)**: *(Upcoming)*
 * **[04-package-and-request](./04-package-and-request)**: *(Upcoming)*
