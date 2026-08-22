@@ -39,7 +39,7 @@ The repository is organized sequentially based on the training modules:
 
 ## 👨‍💻 Author
 
-**Ahmet YAVUZ**
+### Ahmet YAVUZ
 
 * GitHub: [@yavuzahmet1](https://github.com/yavuzahmet1)
 * LinkedIn: [in/1yavuzahmet](https://www.linkedin.com/in/1yavuzahmet)
