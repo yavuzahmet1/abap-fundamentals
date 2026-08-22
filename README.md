@@ -15,6 +15,7 @@ The repository is organized sequentially based on the training modules:
   * `ZBK_TRAINING_0002.abap`: Mathematical operations, conditions (IF/CASE), loops (DO/WHILE), and logical operators.
   * `ZBK_TRAIN_0003_ASSIGN_0001.abap`: Practice assignment for finding even and odd numbers using WHILE loop and MOD operator.
   * `ZBK_TRAIN_0003_ASSIGN_0002.abap`: Practice assignment for finding divisible numbers (2, 3, 5). Introduces string concatenation (`&&`), `CONDENSE` command, and `IS INITIAL` checks.
+  * `ZBK_TRAINING_0004.abap`: Basic Open SQL operations (`SELECT`, `INSERT`, `UPDATE`, `DELETE`, `MODIFY`) for database interaction using variables, work areas, and internal tables.
 
 * **[02-abap-data-dictionary](./02-abap-data-dictionary)**: ABAP Data Dictionary (DDIC) fundamentals & Database Architecture.
   * `ZBK_PERS_T`: Created an Employee (Personel) database table.
