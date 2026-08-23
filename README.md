@@ -8,7 +8,7 @@ As a Full Stack Developer, I am expanding my technical skill set into the SAP ec
 
 ## 🗂️ Course Structure & Contents
 
-The repository is organized sequentially based on the training modules:
+The repository is currently organized with the following modules:
 
 * **[01-basic-introduction](./01-basic-introduction)**: Fundamentals of ABAP programming.
   * `ZBK_TRAINING_0001.abap`: Data types, variable declarations, and the WRITE command.
@@ -16,20 +16,9 @@ The repository is organized sequentially based on the training modules:
   * `ZBK_TRAIN_0003_ASSIGN_0001.abap`: Practice assignment for finding even and odd numbers using WHILE loop and MOD operator.
   * `ZBK_TRAIN_0003_ASSIGN_0002.abap`: Practice assignment for finding divisible numbers (2, 3, 5). Introduces string concatenation (`&&`), `CONDENSE` command, and `IS INITIAL` checks.
   * `ZBK_TRAINING_0004.abap`: Basic Open SQL operations (`SELECT`, `INSERT`, `UPDATE`, `DELETE`, `MODIFY`) for database interaction using variables, work areas, and internal tables.
+  * `ZBK_TRAINING_0005.abap`: User Data Entry Form & Selection Screen Design. Demonstrates the use of `PARAMETERS`, `SELECT-OPTIONS`, Checkboxes, and Radio Button groups within framed blocks. Introduces **Text Symbols** (`text-001`) for multi-language support and UI text management.
 
-* **[02-abap-data-dictionary](./02-abap-data-dictionary)**: ABAP Data Dictionary (DDIC) fundamentals & Database Architecture.
-  * `ZBK_PERS_T`: Created an Employee (Personel) database table.
-  * `ZBK_ST_LESSON`: Created a Student and Lesson tracking table.
-  * **Concepts Applied:**
-    * Structuring Tables, defining **Primary Keys** (e.g., `MANDT`, `STUDENT_ID`).
-    * Creating **Data Elements** (`_DE`) for semantic field labels.
-    * Defining **Domains** for technical properties (Data Types like `CHAR`, `NUMC` and their lengths).
-    * Executing basic CRUD operations (Insert, Select) via Data Browser (**SE16**).
-
-* **[03-functions-and-classes](./03-functions-and-classes)**: *(Upcoming)*
-* **[04-package-and-request](./04-package-and-request)**: *(Upcoming)*
-* **[05-message-type-and-class](./05-message-type-and-class)**: *(Upcoming)*
-* **[06-debugging](./06-debugging)**: *(Upcoming)*
+> **Note:** More modules (such as Data Dictionary, Functions, Classes, etc.) will be added as the training progresses.
 
 ## 💻 Technologies & Tools
 
