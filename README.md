@@ -21,6 +21,9 @@ The repository is currently organized with the following modules:
   * `ZBK_TRAIN_0005_ASSIGN_0002.abap`: Letter grade calculator. Demonstrates data validation using the `MESSAGE` command (Type 'I') to ensure inputs are within a valid range before processing.
   * `ZBK_TRAIN_0005_ASSIGN_0003.abap`: Logic practice to find the middle number among three inputs. Showcases complex logical grouping (`AND`/`OR` within parentheses) and modern ABAP **String Templates** (`|...|`) for dynamic screen output.
   * `ZBK_TRAINING_0005_ASSIGN_0004.abap`: Practice assignment using the `CASE WHEN` structure to create a basic calculator. Takes two numbers and an operator as selection screen parameters to perform dynamic mathematical operations.
+  * `ZBK_TRAINING_0005_ASSIGN_0005.abap`: Checkbox operations practice. Calculates a final result by adding specific values to a default variable based on user-selected checkboxes.
+  * `ZBK_TRAINING_0005_ASSIGN_0006.abap`: Radiobutton operations practice. Acts as a basic calculator applying addition, subtraction, multiplication, or division to two numbers based on the selected radio button using a `CASE` statement.
+  * `ZBK_TRAINING_0005_ASSIGN_0007.abap`: Advanced selection screen practice combining Radiobuttons and Checkboxes. Introduces `FORM` routines (`PERFORM`, `USING`, `CHANGING`) for modularizing arithmetic logic.
 
 > **Note:** More modules (such as Data Dictionary, Functions, Classes, etc.) will be added as the training progresses.
 
