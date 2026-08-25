@@ -24,6 +24,7 @@ The repository is currently organized with the following modules:
   * `ZBK_TRAINING_0005_ASSIGN_0005.abap`: Checkbox operations practice. Calculates a final result by adding specific values to a default variable based on user-selected checkboxes.
   * `ZBK_TRAINING_0005_ASSIGN_0006.abap`: Radiobutton operations practice. Acts as a basic calculator applying addition, subtraction, multiplication, or division to two numbers based on the selected radio button using a `CASE` statement.
   * `ZBK_TRAINING_0005_ASSIGN_0007.abap`: Advanced selection screen practice combining Radiobuttons and Checkboxes. Introduces `FORM` routines (`PERFORM`, `USING`, `CHANGING`) for modularizing arithmetic logic.
+  * `ZBK_TRAINING_0006.abap`: Demonstration of the ABAP program lifecycle using **Event Blocks** (`INITIALIZATION`, `START-OF-SELECTION`, etc.), modularizing code with **Subroutines** (`FORM`/`PERFORM`), and an introductory guide to **INCLUDE** programs for better code organization.
 
 > **Note:** More modules (such as Data Dictionary, Functions, Classes, etc.) will be added as the training progresses.
 
