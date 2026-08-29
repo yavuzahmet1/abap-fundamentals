@@ -29,6 +29,7 @@ The repository is currently organized with the following modules:
   * `ZBK_TRAINING_0006_ASSIGN_0002.abap`: Practice assignment for sequential subroutine calls. Constructs dynamic sentences by executing multiple specific `FORM` routines in a predefined order.
   * `ZBK_TRAINING_0006_ASSIGN_0003.abap`: Practice assignment demonstrating the manipulation of a global variable within subroutines (`FORM`). Solves a mathematical puzzle to reach a target value by calling specific arithmetic forms.
   * `ZBK_TRAINING_0006_ASSIGN_0004.abap`: Practice assignment for creating a Login Screen. Introduces selection screen modification using `AT SELECTION-SCREEN OUTPUT`, the `LOOP AT SCREEN` statement to mask password inputs with asterisks (`screen-invisible = 1`), and handling case-sensitive inputs (`LOWER CASE`).
+  * `ZBK_TRAINING_0006_ASSIGN_0005.abap`: Practice assignment for building a temperature converter (Celsius to Fahrenheit/Kelvin). Demonstrates passing values to subroutines with `USING` and returning calculated results to the main program with `CHANGING`.
 
 > **Note:** More modules (such as Data Dictionary, Functions, Classes, etc.) will be added as the training progresses.
 
