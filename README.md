@@ -31,9 +31,11 @@ The repository is currently organized with the following modules:
   * `ZBK_TRAINING_0006_ASSIGN_0004.abap`: Practice assignment for creating a Login Screen. Introduces selection screen modification using `AT SELECTION-SCREEN OUTPUT`, the `LOOP AT SCREEN` statement to mask password inputs with asterisks (`screen-invisible = 1`), and handling case-sensitive inputs (`LOWER CASE`).
   * `ZBK_TRAINING_0006_ASSIGN_0005.abap`: Practice assignment for building a temperature converter (Celsius to Fahrenheit/Kelvin). Demonstrates passing values to subroutines with `USING` and returning calculated results to the main program with `CHANGING`.
 
-* **[03-functions-and-classes](./03-functions-and-classes)**: Modularization using Function Modules and Classes.
-  * `ZBK_TRAINING_0007_FUNC`: Creation of a custom Function Module via Function Builder (SE37). Demonstrates the use of `IMPORTING`, `EXPORTING`, and `CHANGING` parameters, as well as handling custom `EXCEPTIONS` (e.g., division by zero).
+* **[02-functions-and-classes](./02-functions-and-classes)**: Modularization using Function Modules and Classes.
+  * `ZBK_TRAINING_0007.abap`: Creation of a custom Function Module via Function Builder (SE37). Demonstrates the use of `IMPORTING`, `EXPORTING`, and `CHANGING` parameters, as well as handling custom `EXCEPTIONS` (e.g., division by zero).
   * `ZBK_TRAINING_0008.abap`: An executable report demonstrating how to call a custom Function Module (`CALL FUNCTION`). Includes parameter mapping and error handling using system return codes (`sy-subrc`) to prevent runtime dumps.
+  * `ZBK_TRAINING_0008_ASSIGN_RAND.abap`: Practice assignment creating a custom Function Module in SE37 to generate a random number by encapsulating the standard `QF05_RANDOM_INTEGER` function.
+  * `ZBK_TRAINING_0008_ASSIGN_1_RND.abap`: Executable report that calls the custom random number Function Module and uses `IF/ELSEIF` statements to evaluate and print the range in which the generated number falls.
 
 > **Note:** More modules (such as Data Dictionary, Classes, etc.) will be added as the training progresses.
 
