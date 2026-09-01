@@ -36,13 +36,16 @@ The repository is currently organized with the following modules:
   * `ZBK_TRAINING_0008.abap`: An executable report demonstrating how to call a custom Function Module (`CALL FUNCTION`). Includes parameter mapping and error handling using system return codes (`sy-subrc`) to prevent runtime dumps.
   * `ZBK_TRAINING_0008_ASSIGN_RAND.abap`: Practice assignment creating a custom Function Module in SE37 to generate a random number by encapsulating the standard `QF05_RANDOM_INTEGER` function.
   * `ZBK_TRAINING_0008_ASSIGN_1_RND.abap`: Executable report that calls the custom random number Function Module and uses `IF/ELSEIF` statements to evaluate and print the range in which the generated number falls.
+  * `ZBK_TRAINING_0009_CLASS_FUNDAMENTALS.md`: A comprehensive cheat sheet and guide explaining the core concepts of Object-Oriented Programming (OOP) in ABAP (Classes, Attributes, Methods, Interfaces, Events, etc.).
+  * `ZBK_TRAINING_0009_CLASS_SE24.abap`: Source code representation of a global ABAP class created using the Class Builder (SE24). Demonstrates class definitions, attributes, and method implementations.
+  * `ZBK_TRAINING_0009_CLASS_SE38.abap`: An executable report demonstrating how to consume a global class. Covers object instantiation (`CREATE OBJECT` / `NEW`) and calling class methods.
 
-> **Note:** More modules (such as Data Dictionary, Classes, etc.) will be added as the training progresses.
+> **Note:** More modules (such as Data Dictionary, Advanced OOP, etc.) will be added as the training progresses.
 
 ## 💻 Technologies & Tools
 
 * **Language:** SAP ABAP
-* **Environment:** SAP GUI / ABAP Editor (SE38, SE37, SE11, SE16)
+* **Environment:** SAP GUI / ABAP Editor (SE38, SE37, SE24, SE11, SE16)
 * **Version Control:** Git, GitHub & VS Code
 
 ## 👨‍💻 Author
