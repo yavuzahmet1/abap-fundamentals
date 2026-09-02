@@ -39,6 +39,7 @@ The repository is currently organized with the following modules:
   * `ZBK_TRAINING_0009_CLASS_FUNDAMENTALS.md`: A comprehensive cheat sheet and guide explaining the core concepts of Object-Oriented Programming (OOP) in ABAP (Classes, Attributes, Methods, Interfaces, Events, etc.).
   * `ZBK_TRAINING_0009_CLASS_SE24.abap`: Source code representation of a global ABAP class created using the Class Builder (SE24). Demonstrates class definitions, attributes, and method implementations.
   * `ZBK_TRAINING_0009_CLASS_SE38.abap`: An executable report demonstrating how to consume a global class. Covers object instantiation (`CREATE OBJECT` / `NEW`) and calling class methods.
+  * `ZBK_TRAINING_00010_LOC_SUB_CLS.abap`: Demonstrates ABAP Object-Oriented Programming (OOP) using **Local Classes**. Covers core concepts such as **Inheritance** (`INHERITING FROM`), creating Subclasses, Object Instantiation, and understanding **Visibility Sections** (`PUBLIC`, `PROTECTED`, `PRIVATE`).
 
 > **Note:** More modules (such as Data Dictionary, Advanced OOP, etc.) will be added as the training progresses.
 
