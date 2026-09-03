@@ -41,12 +41,22 @@ The repository is currently organized with the following modules:
   * `ZBK_TRAINING_0009_CLASS_SE38.abap`: An executable report demonstrating how to consume a global class. Covers object instantiation (`CREATE OBJECT` / `NEW`) and calling class methods.
   * `ZBK_TRAINING_00010_LOC_SUB_CLS.abap`: Demonstrates ABAP Object-Oriented Programming (OOP) using **Local Classes**. Covers core concepts such as **Inheritance** (`INHERITING FROM`), creating Subclasses, Object Instantiation, and understanding **Visibility Sections** (`PUBLIC`, `PROTECTED`, `PRIVATE`).
 
+* **[03-Package-and-Request](./03-Package-and-Request)**: Understanding SAP system architecture and transport mechanics.
+  * `ZBK_TRAINING_00011.abap`: Comprehensive bilingual (Turkish/English) documentation explaining SAP Packages, the Local `$TMP` package, the 3-Tier System Landscape (DEV, QUA, PROD), Clients, and Transport Requests.
+
 > **Note:** More modules (such as Data Dictionary, Advanced OOP, etc.) will be added as the training progresses.
 
 ## 💻 Technologies & Tools
 
 * **Language:** SAP ABAP
-* **Environment:** SAP GUI / ABAP Editor (SE38, SE37, SE24, SE11, SE16)
+* **Environment:** SAP GUI / ABAP Workbench
+  * `SE80` - **Object Navigator:** Advanced IDE for managing packages and all development objects.
+  * `SE10` - **Transport Organizer:** Managing and releasing Transport Requests (DEV -> QUA -> PROD).
+  * `SE38` - **ABAP Editor:** Standard editor for developing ABAP reports and programs.
+  * `SE37` - **Function Builder:** Creating, editing, and testing Function Modules.
+  * `SE24` - **Class Builder:** Developing global ABAP Classes and Interfaces (OOP).
+  * `SE11` - **ABAP Dictionary:** Managing database tables, data types, and domains.
+  * `SE16` - **Data Browser:** Viewing and querying database table contents.
 * **Version Control:** Git, GitHub & VS Code
 
 ## 👨‍💻 Author
